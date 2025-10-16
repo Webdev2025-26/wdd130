@@ -3,6 +3,11 @@
 #content{
   max-width: 1600px;
   margin: auto;
+  width: 1600px;
+}
+
+.logo{
+    width: 80px;
 }
 
 h4 {
