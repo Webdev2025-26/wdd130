@@ -1,139 +1,175 @@
+/* --- Google Font Imports --- */
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700|Rock+Salt&display=swap');
 
+/* --- Site Colors --- 
+    #0B0A09 (Black/Dark Footer)
+    #d9c2a3 (Beige/Background)
+    #F7F4F3 (Off White/Light Text)
+    #396E94 (Blue/Accent)
+    #fcfbfb (Pure White/Body Background)
+*/
 
-#content{
-  max-width: 1600px;
-  margin: auto;
-  width: 1600px;
-}
-
-.logo{
-    width: 80px;
-}
-
-h4 {
-    color:  #F7F4F3;
-
-}
-
-.home-title{
-    color:  #F7F4F3;
-}
-
-nav a{
-  text-align: center;
-  color: #F7F4F3;
-  text-decoration: none;
-}
-
-#hero-img{
-    width: 100%;
-}
-
-#hero-msg h1{
-   text-align: center;
-}
-
-#hero-msg h4{
-    text-align: center;
-}
-
-.button-box{
-    text-align: center;
-}
-
-main section{
-    text-align: center;
-}
-
-#background {
-    height: 725px;
-}
+/* --- Structural and Global Styles (Simple Reset, Fonts, Sizes) --- */
 
 body {
-    background-color: #0B0A09; 
+    background-color: #fcfbfb; /* Body background color */
+    font-family: Raleway, Arial, sans-serif; /* Changed body font */
+    font-size: 22px; /* Adjusted body font size */
+    margin: 0; /* Simple Reset */
+    padding: 0; /* Simple Reset */
+}
+
+h2 {
+    margin: 0; /* Simple Reset */
+}
+
+#content {
+    max-width: 1600px; /* Max width to prevent page from getting too wide */
+    margin: 0 auto; /* Centers the content block horizontally */
+}
+
+/* --- Typography Colors and Styles --- */
+
+h4 {
+    color: black;
+}
+
+.home-title {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif; /* Headline font */
+    color: black;
+    margin-top: 10px; /* Added margin */
+    font-size: 2em; /* Adjusted font size */
+}
+
+.msg h2 {
+    color: white;
+}
+
+.msg p {
+    color: #F7F4F3;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: .8em; 
+    padding-bottom: 15px; 
 }
 
 
 
 header {
-     background-color: #0B0A09; 
+    background-color: rgba(20, 30, 13, .7); 
 }
 
+.logo {
+    width: 80px; 
+}
+
+#logo-link {
+    padding-top: 5px; 
+}
+
+nav a {
+    color: #F7F4F3;
+    text-align: center;
+    text-decoration: none; 
+    padding: 35px; 
+}
 
 nav a:hover {
     background-color: black;
-    color: #396E94;
-}
-
-.book {
-   background-color: #0B0A09; 
-   color:  #F7F4F3;
-   text-decoration: none;
-}
-
-
-.join {
-    background-color: #0B0A09; 
-    color:  #F7F4F3;
-    text-decoration: none;
-}
-
-
-.book:hover {
-   background-color: #0B0A09; 
-   color: #396E94;
-
-}
-
-.join:hover {
-     background-color: #0B0A09;
-     color: #396E94;
+    color: #d9c2a3; 
 }
 
 
 
+#hero-img {
+    width: 100%; 
+}
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center; 
+}
+
+.button-box {
+    text-align: center; 
+}
+
+
+
+main section {
+    text-align: center; 
+}
+
+main section img {
+    box-sizing: border-box; 
+}
+
+.icon {
+    width: 80px; 
+    padding-top: 10px; 
+}
+
+#background {
+    height: 725px;
+    background-color: #d9c2a3; 
+}
 
 .msg {
-    background-color: #0B0A09;
+    background-color: #0B0A09; 
+    line-height: 1.5em; 
+    padding: 35px; 
 }
 
-.msg h2{
-    color:  #F7F4F3;
+.card-img {
+    border: 10px solid #d9c2a3; 
 }
 
-.msg p{
-    color:  #F7F4F3;
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0; 
 }
 
+
+
+.book, .join {
+    background-color: #d9c2a3;
+    color: black;
+    text-decoration: none; 
+    font-size: 18px; 
+    padding: 15px 30px; 
+    margin-top: 50px; 
+    border-radius: 5px; 
+}
+
+.book:hover, .join:hover {
+    background-color: black;
+    color: #d9c2a3; 
+}
 
 
 
 footer {
     background-color: #0B0A09;
-    color:  #F7F4F3;
-    
-
+    color: #F7F4F3; 
+    padding: 25px 50px; 
+    margin-top: 200px; 
 }
 
-footer a{
-    color:  #F7F4F3;
-    text-decoration: none;
+footer a {
+    color: #F7F4F3; 
+    text-decoration: none; 
 }
 
-footer a:hover{
-    color:  #396E94;
-
+footer a:hover {
+    color: #396E94; 
 }
 
-.icon {
-    width: 80px;
-}
-
-footer p{
-    font-size: 1.2em;
+footer p {
+    font-size: 1.2em; 
 }
 
 footer p a:hover {
-    text-decoration: underline;
-}    
+    text-decoration: underline; 
+}
 
+footer .social img {
+    padding-top: 15px; 
+}
