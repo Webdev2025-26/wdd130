@@ -1,44 +1,36 @@
-/* --- Google Font Imports --- */
+
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700|Rock+Salt&display=swap');
 
-/* --- Site Colors --- 
-    #0B0A09 (Black/Dark Footer)
-    #d9c2a3 (Beige/Background)
-    #F7F4F3 (Off White/Light Text)
-    #396E94 (Blue/Accent)
-    #fcfbfb (Pure White/Body Background)
-*/
 
-/* --- Structural and Global Styles (Simple Reset, Fonts, Sizes) --- */
 
 body {
-    background-color: #fcfbfb; /* Body background color */
-    font-family: Raleway, Arial, sans-serif; /* Changed body font */
-    font-size: 22px; /* Adjusted body font size */
-    margin: 0; /* Simple Reset */
-    padding: 0; /* Simple Reset */
+    background-color: #fcfbfb;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px; 
+    margin: 0; 
+    padding: 0; 
 }
 
 h2 {
-    margin: 0; /* Simple Reset */
+    margin: 0; 
 }
 
 #content {
-    max-width: 1600px; /* Max width to prevent page from getting too wide */
-    margin: 0 auto; /* Centers the content block horizontally */
+    max-width: 1600px; 
+    margin: 0 auto; 
 }
 
-/* --- Typography Colors and Styles --- */
+
 
 h4 {
     color: black;
 }
 
 .home-title {
-    font-family: 'Rock Salt', 'Bradley Hand', sans-serif; /* Headline font */
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
     color: black;
-    margin-top: 10px; /* Added margin */
-    font-size: 2em; /* Adjusted font size */
+    margin-top: 10px;
+    font-size: 2em; 
 }
 
 .msg h2 {
