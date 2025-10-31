@@ -11,6 +11,11 @@ body {
     padding: 0; 
 }
 
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -38,7 +43,7 @@ h4 {
 
 .home-title {
     font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
-    color: black;
+    color: white;
     margin-top: 10px;
     font-size: 2em; 
 }
@@ -186,9 +191,8 @@ main section img {
 }
 
 .mountains {
-    width: 100%;
     grid-column: 2/7;
-    grid-row: 5/7;
+    grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
 }
 
@@ -212,7 +216,7 @@ main section img {
 
 
 footer {
-    background-color: #0B0A09;
+    background-color: #6f7364;
     color: #F7F4F3; 
     padding: 25px 50px; 
     margin-top: 200px; 
