@@ -4,7 +4,7 @@ Fonts are separated by a | */
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Spicy+Rice&display=swap');
 
 :root {
-  /* change the values below to your colors from your palette */
+  /* chge the values below to your colors from your palette */
   --primary-color:  #C5283D;
   --secondary-color: #E9724C ;
   --accent1-color: #FFC857;
@@ -35,9 +35,6 @@ body {
   padding: 4em;
   font-size: 18px;
   text-align: center;
-}
-.image-frame{
-  width: 300px;
 }
 img {
   max-width: 100%;
