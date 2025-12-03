@@ -36,6 +36,11 @@ body {
   padding: 4em;
   font-size: 18px;
   text-align: center;
+  background-image: url("https://t3.ftcdn.net/jpg/16/24/77/66/360_F_1624776678_gqhhTQg4G43rIuFfzzox7XF6u3PxbyUo.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
@@ -61,6 +66,8 @@ header {
   text-align: center;
   color: var(--headline-color-on-color);
   background-color: var(--paragraph-background-color);
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -70,6 +77,8 @@ footer {
   text-align: center;
   color: var(--headline-color-on-color);
   background-color: var(--paragraph-background-color);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -302,6 +311,20 @@ nav a:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
+.pop-out-text {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out; 
+  transform: scale(1); 
+}
+
+.pop-out-text:hover {
+  transform: scale(1.1); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
 .header-container:hover {
     background-color: #8E1C2B; 
     transform: scale(1.01) translateY(-2px); 
@@ -445,6 +468,13 @@ nav a:hover {
     text-align: left; 
     margin-bottom: 5px; 
 }
+
+
+.bold-paragraph {
+    font-weight: bold; 
+    /* font-weight: 700; */
+}
+
 
 
 
