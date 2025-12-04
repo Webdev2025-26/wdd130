@@ -383,6 +383,8 @@ nav a:hover {
 
 
 .feature-button {
+    text-decoration: none;
+    font-size: 13px;
     background-color: #C5283D;
     color: white;
     border: none;
@@ -473,6 +475,10 @@ nav a:hover {
 .bold-paragraph {
     font-weight: bold; 
     /* font-weight: 700; */
+}
+
+.color-changer{
+  background-color: white;
 }
 
 
